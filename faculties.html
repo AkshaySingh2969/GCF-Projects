@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parul University - Faculties</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+      url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1920&auto=format&fit=crop') 
+      no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      min-height: 100vh;
+    }
+
+    .faculty-section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card-body {
+      background-color: rgba(255,255,255,0.95);
+      color: black;
+      border-radius: 0 0 15px 15px;
+      text-align: center;
+    }
+
+    .faculty-img {
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .btn-custom {
+      background-color: #ffcc00;
+      color: black;
+      font-weight: bold;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #e6b800;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container faculty-section">
+    <h2 class="section-title">Our Esteemed Faculties</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow-lg">
+          <img src="https://images.unsplash.com/photo-1603415526960-f7e0328d7b7b?q=80&w=800&auto=format&fit=crop" 
+          class="card-img-top faculty-img" alt="Faculty">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Rajesh Sharma</h5>
+            <p class="card-text">Professor - Computer Science</p>
+            <p>Ph.D. in Artificial Intelligence with 15+ years of teaching experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-lg">
+          <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?q=80&w=800&auto=format&fit=crop" 
+          class="card-img-top faculty-img" alt="Faculty">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Neha Patel</h5>
+            <p class="card-text">Associate Professor - Management</p>
+            <p>Specialist in Marketing & Strategic Management.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-lg">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=800&auto=format&fit=crop" 
+          class="card-img-top faculty-img" alt="Faculty">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Amit Verma</h5>
+            <p class="card-text">Professor - Mechanical Engineering</p>
+            <p>Expert in Robotics and Industrial Automation.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="enquiry.html" class="btn btn-custom btn-lg">Connect With Us</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
